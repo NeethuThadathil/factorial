@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./factorial.css">
+</head>
+<body id="bd1">
+    <h1 id="h1">Find Factorial</h1>
+    <input type="number" name="" id="id1" placeholder="Enter number"> <br><br>
+    <button type="button" onclick="fact()" id="butn1">Factorial</button>
+</body>
+<script>
+
+function fact()
+    {
+        n=parseInt(id1.value)   
+        f=1
+            for(i=1;i<=n;i++)
+            {
+            f=f*i
+            }
+            alert(`factorial of the given number ${f}`)
+        
+    }
+</script>
+</html>
